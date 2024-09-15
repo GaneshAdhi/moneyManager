@@ -1,0 +1,161 @@
+.money-manager-main-container {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .money-manager-main-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.banner-card {
+  height: 10rem;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 9px;
+}
+
+.name-heading {
+  font-family: Roboto;
+  font-size: 2rem;
+  color: #475569;
+}
+
+.welcome-para {
+  font-size: 1.1rem;
+  font-family: Roboto;
+  color: #475569;
+}
+
+.span-style {
+  font-size: 1.2rem;
+  font-family: Roboto;
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.form-and-money-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .form-and-money-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: transparent;
+  border: 0.1rem solid #cbd5e1;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-card {
+    width: 45%;
+  }
+}
+
+.form-heading {
+  font-size: 1.6rem;
+  font-family: Roboto;
+  color: #1e293b;
+}
+
+.label-style {
+  font-size: 1.1rem;
+  font-family: Roboto;
+  color: #334155;
+}
+
+.input-style {
+  height: 2.5rem;
+  padding-left: 1.2rem;
+  background-color: transparent;
+  border: 0.1rem solid #d7dfe9;
+  border-radius: 9px;
+  font-family: Roboto;
+  font-size: 1rem;
+  outline: none;
+}
+::placeholder {
+  color: #334155;
+}
+
+.add-btn {
+  height: 2.5rem;
+  width: 6.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  font-size: 1.1rem;
+  font-family: Roboto;
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.history-container {
+  width: 100%;
+  background-color: transparent;
+  border: 0.1rem solid #cbd5e1;
+  padding: 1rem;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .history-container {
+    width: 55%;
+  }
+}
+
+.history-heading {
+  font-size: 1.6rem;
+  color: #334155;
+  font-family: Roboto;
+}
+
+.list-detail-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2.8rem;
+  background-color: transparent;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0.1rem solid #d7dfe9;
+  margin-top: 1rem;
+  gap: 3rem;
+}
+
+.detail-para-common {
+  font-size: 1.1rem;
+  font-family: Roboto;
+  color: #334155;
+  font-weight: bold;
+}
+
+.money-history-list-container {
+  display: flex;
+  flex-direction: column;
+}
